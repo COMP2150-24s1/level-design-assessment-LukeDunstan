@@ -5,30 +5,28 @@
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
-
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+
+In this level, the player learns many new mechanics and in turn new dynamics to be used with those mechanics. each encound that the player has with a new mechanc has been designed in a way that is clear and easy for the player to learn the mechanic, for example, in the first encounter of the game, the player is introduced to acid, moving platforms, checkpoints, and health pickups. While it could be seen as too many new ideas thrown as the player, each mechanic works in tandem to seamlessly teach the player about them, the player tries to jump onto the moving platform but falls into the acid, thereby respawning at the checkpoint and regaining a heart from the health pickup.
+![Encounter01 Acid, Moving Platforms, Checkpoints, Health Pickups](DocImages/Encounter01.png)
+
 
 ### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+
+A good intensity curve keeps a balance between tense and relaxed situations. I believe my level design achieves this curve through the level hub in the middle as a safe homeground and the intesity slowly ramping up in intensity as the player progresses through the level sections from the "tutorial" section 1, to the enemy filled puzzle section 2, to finally the tense acid lake and enemy wave in section 3. 
+ ![Section 1 example](DocImages/Section%201.png) ![Puzzle example](DocImages/Puzzle.png)![Acid Lake](DocImages/Acid%20lake.png)
 
 ### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+
+The main challenges of this level are, in order; learning the mechanics, completing the puzzle section while defeating spawning enemies, traversing the acid lake platforms while dodging enemie spits and then defeating the wave of enemies protecting the key for section 3. this level keeps the player in the flow channel by letting the player learn and become confortable with game mechanics before introducing new dynamics to be formed and putting the player into areas with a higher density of enemies. fo4r example, the player first learns of the pushable boxes in section 1 of the level. section 2 builds on this mechanic and creates the new dynamic of using the boxes as height boosts while also creating an unsafe area with spawning enemies.
+![Box mechanic](DocImages/box%20pressure%20plate.png) ![Box height boost dynamic](DocImages/Box%20Height.png)
 
 ### 1.4. Exploration
 How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+
+
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -37,27 +35,17 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Acid, Moving Platforms, Checkpoints, Health Pickups
 
-### 2.2. Checkpoints
+### 2.2. Chompers, Weapon Pickup (Staff)
 
-### 2.3. Chompers
+### 2.3. Passthrough Platforms
 
-### 2.4. Health Pickups
+### 2.4. Keys
 
-### 2.5. Keys
+### 2.5. Spikes
 
-### 2.6. Moving Platforms
-
-### 2.7. Passthrough Platforms
-
-### 2.8. Spikes
-
-### 2.9. Spitters
-
-### 2.10. Weapon Pickup (Gun)
-
-### 2.11. Weapon Pickup (Staff)
+### 2.6. Spitters, Weapon Pickup (Gun)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
